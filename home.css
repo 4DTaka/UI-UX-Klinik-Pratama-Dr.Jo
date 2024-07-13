@@ -1,0 +1,197 @@
+@font-face {
+    font-family: OleoScriptR;
+    src: url("font/Osr.ttf");
+}
+@font-face {
+    font-family: MartelSansDB;
+    src: url("font/martelsans-demibold.otf");
+}
+
+.logo {
+    width: 360px;
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    font-family: MartelSansDB;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-link.active {
+    color: rgb(255, 239, 205);
+}
+.nav-link:hover {
+    color: rgb(255, 239, 205);
+}
+#parent {
+    position :relative;
+    width:100%;
+    height: 648px;
+}
+.background {
+    background: rgb(255, 239, 205);
+    width: 100%;
+    height: 720px;
+    position: absolute;
+    z-index: 1;
+}
+.pinkwave {
+    width: 100%;
+    height: 780px;
+    position: absolute;
+    top: -100px;
+    z-index: 2;
+}
+.hkosmetik{
+    width: 485px;
+    height: 490px;
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    z-index: 3;
+}
+.kosmetik {
+    width: 450px;
+    height: 490px;
+    position: absolute;
+    top: -37px;
+    left: 10px;
+    z-index: 4;
+}
+.hias1 {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+.text1 {
+    width: 440px;
+    height: 100px;
+    position: absolute;
+    top: 30px;
+    left: 470px;
+    z-index: 6;
+}
+.text2 {
+    width: 380px;
+    height: 46px;
+    position: absolute;
+    top: 145px;
+    left: 470px;
+    z-index: 7;
+}
+.btn-custom {
+    background-color: rgb(255, 255, 255);
+    color: rgb(237, 169, 198);
+    font-family: OleoScriptR;
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 210px;
+    left: 470px;
+    z-index: 8;
+}
+.shadowbtn{
+    width: 214px;
+    height: 46px;
+    position: absolute;
+    top: 210px;
+    left: 470px;
+    z-index: 7;
+}
+.btn-custom:hover {
+    background-color: rgb(255, 239, 205);
+    color: rgb(237, 169, 198);
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 210px;
+    left: 470px;
+    z-index: 8;
+}
+.btn-custom:not(:disabled):not(:disabled):active {
+    background-color: rgb(255, 239, 205);
+    color: rgb(237, 169, 198);
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 210px;
+    left: 470px;
+    z-index: 9;
+}
+.hperawatan {
+    width: 559px;
+    height: 543px;
+    position: absolute;
+    top: 177px;
+    right: 0;
+    z-index: 9;
+}
+.perawatan {
+    width: 390px;
+    height: 390px;
+    position: absolute;
+    top: 320px;
+    left: 943px;
+    z-index: 10;
+}
+.text3 {
+    width: 440px;
+    height: 100px;
+    position: absolute;
+    top: 340px;
+    left: 500px;
+    z-index: 11;
+}
+.text4 {
+    width: 350px;
+    height: 72px;
+    position: absolute;
+    top: 455px;
+    left: 585px;
+    z-index: 12;
+}
+.btn-custom-2 {
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    font-family: OleoScriptR;
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 540px;
+    left: 725px;
+    z-index: 13;
+}
+.btn-custom-2:hover {
+    background-color: rgb(255, 239, 205);
+    border: 2px solid rgb(15, 97, 50);
+    width: 210px;
+    color: rgb(15, 97, 50);
+    width: 210px;
+    height: 40px;
+    position: absolute;
+    top: 540px;
+    left: 725px;
+    z-index: 13;
+}
+.btn-custom-2:not(:disabled):not(:disabled):active {
+    background-color: rgb(255, 239, 205);
+    border: 2px solid rgb(15, 97, 50);
+    width: 210px;
+    color: rgb(15, 97, 50);
+    position: absolute;
+    z-index: 14;
+}
+.shadowbtn2{
+    width: 214px;
+    height: 46px;
+    position: absolute;
+    top: 540px;
+    left: 725px;
+    z-index: 12;
+}

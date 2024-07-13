@@ -1,0 +1,858 @@
+@font-face {
+    font-family: OleoScriptR;
+    src: url("font/Osr.ttf");
+}
+@font-face {
+    font-family: MartelSansR;
+    src: url("font/martelsans-regular.otf");
+}
+@font-face {
+    font-family: MartelSansDB;
+    src: url("font/martelsans-demibold.otf");
+}
+@font-face {
+    font-family: MartelSansEB;
+    src: url("font/martelsans-extrabold.otf");
+}
+@font-face {
+    font-family: MartelSansH;
+    src: url("font/martelsans-heavy.otf");
+}
+.sosmed {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0));
+}
+
+.logo {
+    width: 360px;
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    font-family: MartelSansDB;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+}
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover {
+    color: rgb(15, 97, 50);
+}
+#parent {
+    position :relative;
+    width: 100%;
+    max-width: 100%;
+    height: 1360px;
+}
+.background {
+    background: rgb(255, 239, 205);
+    width: 100%;
+    height: 1360px;
+    position: absolute;
+    z-index: 0;
+}
+.hias {
+    width: 100%;
+    height:1360px;
+    position: absolute;
+    z-index: 2;
+}
+.bg-slide {
+    position: absolute;
+    left: 65px;
+    min-height: 70vh;
+    top: 70px;
+    z-index: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.slide-container{
+    max-width: 1220px;
+    width: 100%;
+    padding: 40px 0;
+}
+.slide-content{
+    margin: 0 80px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+.card {
+    border-radius: 25px;
+    background-color: #ffffff;
+    height: 252px;
+}
+.image-content{
+    position: relative;
+}
+
+.card-content {
+    flex-direction: column;
+    align-items: center;
+}
+.card-image {
+    position: relative;
+    height: 250px;
+    width: 250px;
+}
+
+.card-image .card-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    object-fit: cover;
+    border-radius: 25px 0 0 25px;
+}
+.name{
+    position: absolute;
+    left: 270px;
+    top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(15, 97, 50);
+    font-family: MartelSansH;
+}
+.description{
+    position: absolute;
+    left: 270px;
+    top: 65px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(15, 97, 50);
+    font-family: MartelSansR;
+}
+.quotes{
+    position: absolute;
+    left: 270px;
+    top: 110px;
+    font-size: 18px;
+    font-weight: 500;
+    color:rgb(15, 97, 50);
+    font-family: MartelSansR;
+}
+.swiper-navBtn {
+    color: rgb(255, 239, 205);
+    transition: color 0.3s ease;
+    width: 55px;
+    height: 55px;
+    border-radius: 20%;
+    background-color: rgb(15, 97, 50);
+}
+.swiper-navBtn:hover {
+    border: 2px solid rgb(15, 97, 50);
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 239, 205);
+}
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+    font-size: 30px;
+    font-weight:bolder
+}
+.swiper-button-next {
+    right: 0;
+}
+.swiper-button-prev {
+    left: 0;
+}
+.swiper-pagination {
+    width: 100px;
+}
+.swiper-pagination-bullet {
+    width: 13px;
+    height: 13px;
+    background-color: rgb(30, 183, 96);
+    opacity: 1;
+}
+.swiper-pagination-bullet-active {
+    background-color: rgb(15, 97, 50);
+}
+.bg-bg {
+    background-color: #ffffff;
+    width: 1220px;
+    height: 750px;
+    top: 500px;
+    left: 65px;
+    position: absolute;
+    border-radius: 25px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    z-index: 4;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+}
+.bg-tabel {
+    width: 620px;
+    height: 750px;
+    top: 500px;
+    left: 65px;
+    position: absolute;
+    z-index: 4;
+}
+.JudulTabel {
+    position: relative;
+    top: 20px;
+    left: 450px;
+    color: rgb(15, 97, 50);
+    font-size: 30px;
+    font-family: MartelSansH;
+}
+.carousel {
+    position: relative;
+    z-index: 5;
+    width: 1217px;
+    height: 650px;
+    border-radius: 25px;
+    top: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.carousel-item {
+    width: 1220px;
+    height: 600px;
+}
+.Page1 {
+    position: relative;
+    top:0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: #e2e2e2;
+    border-radius: 25px;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+}
+table {
+    position: relative;
+    border-collapse: collapse;
+    width: 100%;
+    border-radius: 25px 25px 25px 25px;
+}
+td {
+    font-family: MartelSansR;
+    height: 87px;
+    text-align: center;
+    padding: 12px;
+    color: rgb(15, 97, 50);;
+}
+th {
+    font-family: MartelSansEB;
+    font-size:20px;
+    background-color: rgb(15, 97, 50);
+    text-align: center;
+    padding: 12px;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #F0F0F0;
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+.kiri {
+    border-radius: 25px 0 0 0;
+}
+.kanan {
+    border-radius: 0 25px 0 0;
+}
+.docpic {
+    width: 170px;
+    height: 87px;
+}
+.td {
+    text-align: left;
+    padding: 0;
+}
+.btn-custom {
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 255, 255);
+    font-family: OleoScriptR;
+    width: 100px;
+    height: 40px;
+}
+.btn-custom:hover {
+    background-color: transparent;
+    border: 2px solid rgb(15, 97, 50);
+    color: rgb(15, 97, 50);
+    font-family: OleoScriptR;
+    width: 100px;
+    height: 40px;
+}
+ol.carousel-indicators > li:not(:disabled):not(:disabled) {
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    margin: 5px;
+    border: 0;
+    background: rgb(15, 97, 50);
+}
+ol.carousel-indicators li.active {
+float: left;
+height: 20px;
+width: 20px;
+margin: 0;
+border-radius: 0;
+border: 0;
+background: rgb(15, 97, 50);
+}
+.icon-prev,
+.icon-next {
+    background-color: rgba(15, 97, 50, 1);
+    color: rgba(255, 239, 205, 1);
+    width: 55px;
+    height: 55px;
+}
+.prev {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 320px;
+    left: 35px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight:bolder;
+    background-color: rgba(15, 97, 50, 1);
+    border-color: transparent;
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.prev:hover {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 320px;
+    left: 35px;
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 255, 255, 1);
+    border: 2px solid rgb(15, 97, 50);
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.next {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 320px;
+    right: 35px;
+    color: #ffffff;
+    font-size: 30px;
+    font-weight:bolder;
+    background-color: rgba(15, 97, 50, 1);
+    border-color: transparent;
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.next:hover {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    top: 320px;
+    right: 35px;
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 255, 255, 1);
+    border: 2px solid rgb(15, 97, 50);
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.prev::before,
+.prev::after,
+.next::before,
+.next::after{
+    font-size: 30px;
+    font-weight:bolder
+}
+.FilterTanggal {
+    position: absolute;
+    font-family: MartelSansR;
+    font-size: 15px;
+    color: rgb(15, 97, 50);
+    top: 80px;
+    left: 125px;
+}
+.date-1{
+    background-color: transparent;
+    padding-top: 4px;
+    position: absolute;
+    top: 74px;
+    left: 230px;
+    font-family: MartelSansR;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid rgb(15, 97, 50);
+    border-radius: 10px;
+}
+.s-d {
+    position: absolute;
+    font-family: MartelSansR;
+    font-size: 15px;
+    color: rgb(15, 97, 50);
+    top: 80px;
+    left: 375px;
+}
+.date-2{
+    background-color: transparent;
+    padding:0;
+    padding-top: 4px;
+    position: absolute;
+    top: 74px;
+    left: 405px;
+    font-family: MartelSansR;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: center;
+    border: 2px solid rgb(15, 97, 50);
+    border-radius: 10px;
+}
+::-webkit-calender-picker-indicator {
+    cursor: pointer;
+    color: rgb(15, 97, 50);
+}
+
+
+.btn-custom-tidak {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 120px;
+    height: 40px;
+    font-size:15px;
+    padding-top: 10px;
+    font-family: MartelSansDB;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    z-index: 10;
+}
+.btn-custom-tidak:hover {
+    position: absolute;
+    top: 150px;
+    left: 100px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+    z-index: 10;
+}
+.btn-custom-ya {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 120px;
+    height: 40px;
+    font-size:15px;
+    padding-top: 10px;
+    font-family: MartelSansDB;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    z-index: 10;
+}
+.btn-custom-ya:hover {
+    position: absolute;
+    top: 150px;
+    right: 100px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+    z-index: 10;
+}
+.modal-content {
+    width: 500px;
+    top: 220px;
+    background-color: rgb(255, 239, 205);
+}
+.bg-modal1 {
+    position: absolute;
+    width: 500px;
+    height: 250px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.buttonclose {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    z-index: 10;
+    background-color: transparent;
+}
+.image-closebtn {
+    width: 30px;
+    height: 30px;
+}
+.modal-text {
+    position: absolute;
+    color: rgb(15, 97, 50);
+    top: 90px;
+    left: 42px;
+    font-size:large;
+    font-family: MartelSansDB;
+}
+.col-form-label {
+    position: relative;
+    color: rgb(15, 97, 50);
+    font-family: MartelSansEB;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 100px;
+    padding-bottom: 3px;
+}
+.dd {
+    position: absolute;
+    font-family: MartelSansH;
+    font-size: 40px;
+    color: rgb(15, 97, 50);
+    z-index: 10;
+    top: 80px;
+    left: 530px;
+}
+.bill-card-1 {
+    width: 800px;
+    height: 500px;
+    top: 0px;
+    left: -150px;
+    background-color: rgb(255, 239, 205);
+    background-image: url('bahan/Jadwal/bg_modal2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bill-card {
+    width: 800px;
+    height: 600px;
+    top: 0px;
+    left: -150px;
+    background-color: rgb(255, 239, 205);
+    background-image: url('bahan/Jadwal/bg_modal2.png');
+    background-repeat: no-repeat;
+    background-size: 100% 140%;
+}
+.bill-ex {
+    position: absolute;
+    width: 800px;
+    top: 60px;
+}
+.form-control {
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+.form-control:focus,
+.form-select:focus {
+    box-shadow: 0px 5px 5px rgba(15, 97, 50, 0.6);
+}
+.form-select {
+    width: 600px;
+    margin-left: 100px;
+    border-radius: 10px;
+    background-color: white;
+    border: none;
+}
+.marginonly {
+    position: relative;
+    height: 30px;
+    width: 50px;
+    margin-left: 10px;
+}
+.input-group-text {
+    margin-right: 100px;
+    border-radius: 10px;
+    background-color: rgb(15, 97, 50);
+    color: white;
+    font-family: MartelSansR;
+    padding-bottom: 2px;
+}
+.btn-custom-ya-3 {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    padding-top: 10px;
+    font-size:15px;
+    font-family: MartelSansDB;
+    z-index: 10;
+}
+.btn-custom-tidak-3 {
+    position: absolute;
+    bottom: 20px;
+    left: 150px;
+    width: 200px;
+    height: 40px;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    font-size:15px;
+    padding-top: 10px;
+    font-family: MartelSansDB;
+    z-index: 10;
+}
+.btn-custom-ya-3:hover,
+.btn-custom-tidak-3:hover {
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+}
+.btn-custom-tidak-3:active:not(:disabled):not(:disabled),
+.btn-custom-ya-3:active:not(:disabled):not(:disabled){
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+}
+.download-btn {
+    position: absolute;
+    bottom: 20px;
+    left: 320px;
+    width: 160px;
+    height: 40px;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    font-size:large;
+    font-family: MartelSansDB;
+    z-index: 10;
+}
+.download-btn:hover {
+    position: absolute;
+    bottom: 20px;
+    left: 320px;
+    width: 160px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+    font-size:large;
+    font-family: MartelSansDB;
+    z-index: 10;
+}
+.modal-text-2 {
+    position: absolute;
+    color: rgb(15, 97, 50);
+    top: 90px;
+    left: 100px;
+    font-size:large;
+    font-family: MartelSansDB;
+}
+.btn-custom-ya-2 {
+    position: absolute;
+    top: 150px;
+    right: 190px;
+    width: 120px;
+    height: 40px;
+    background-color: rgb(15, 97, 50);
+    color: rgb(255, 239, 205);
+    font-size:15px;
+    font-family: MartelSansDB;
+    z-index: 10;
+}
+.btn-custom-ya-2:hover {
+    position: absolute;
+    top: 150px;
+    right: 190px;
+    width: 120px;
+    height: 40px;
+    background-color: transparent;
+    color: rgb(15, 97, 50);
+    border: 2px solid rgb(15, 97, 50);
+    z-index: 10;
+}
+.fade {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.footer {
+    position: absolute;
+    top: 1460px;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -20px 20px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+.butt1 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    z-index: 120;
+}
+.butt2 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 25px;
+    left: 0;
+    z-index: 120;
+}
+.butt3 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 49px;
+    left: 0;
+    z-index: 120;
+}
+.butt4 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 70px;
+    left: 0;
+    z-index: 120;
+}
+.butt5 {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    top: 92px;
+    left: 0;
+    z-index: 120;
+}
+.butt6 {
+    position: absolute;
+    width: 115px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    z-index: 120;
+}
+.butt7 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 25px;
+    left: 0;
+    z-index: 120;
+}
+.butt8 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 49px;
+    left: 0;
+    z-index: 120;
+}
+.butt9 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 72px;
+    left: 0;
+    z-index: 120;
+}
+.butt0 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 93px;
+    left: 0;
+    z-index: 120;
+}
+.prg-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-2 {
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-3 {
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-4 {
+    position: absolute;
+    top: 50px;
+    left: 960px;
+    color: rgb(15, 97, 50);;
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-5 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-6 {
+    position: absolute;
+    top: 100px;
+    left: 570px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-7 {
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-8 {
+    position: absolute;
+    top: 100px;
+    left: 960px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.logo-sm {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 200px;
+    left: 960px;
+}
+.logoo {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+.garis {
+    position: absolute;
+    background-color: rgb(15, 97, 50);
+    width: 100%;
+    height: 5px;
+    top: 255px;
+    left:0;
+}
+.image-copyright {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 280px;
+    left: 50px;
+}
+.prg-9 {
+    position: absolute;
+    top: 320px;
+    left: 480px;
+    color: rgb(15, 97, 50);
+    font-size: 17px;
+    text-align: justify;
+    font-family: MartelSansDB;
+}
+      

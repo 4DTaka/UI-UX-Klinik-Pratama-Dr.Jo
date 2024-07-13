@@ -1,0 +1,542 @@
+@font-face {
+    font-family: OleoScriptR;
+    src: url("font/Osr.ttf");
+}
+@font-face {
+    font-family: MartelSansR;
+    src: url("font/martelsans-regular.otf");
+}
+@font-face {
+    font-family: MartelSansDB;
+    src: url("font/martelsans-demibold.otf");
+}
+@font-face {
+    font-family: MartelSansEB;
+    src: url("font/martelsans-extrabold.otf");
+}
+@font-face {
+    font-family: MartelSansH;
+    src: url("font/martelsans-heavy.otf");
+}
+
+.logo {
+    width: 360px;
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    font-family: MartelSansDB;
+    box-shadow: 0px 20px 20px rgba(0,0,0,0.1);
+}
+.nav-link {
+    color: rgb(0, 0, 0);
+}
+.nav-link:hover {
+    color: rgb(15, 97, 50);
+}
+#parent {
+    position :relative;
+    width: 100%;
+    height: 1360px;
+}
+.background {
+    background: rgb(255, 239, 205);
+    width: 100%;
+    height: 1360px;
+    position: absolute;
+    z-index: 0;
+}
+.hias {
+    width: 100%;
+    height:1360px;
+    position: absolute;
+    z-index: 1;
+}
+.sosmed {
+    color: rgba(var(--bs-link-color-rgb),var(--bs-link-opacity,0));
+}
+.butt1 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    z-index: 120;
+}
+.butt2 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 25px;
+    left: 0;
+    z-index: 120;
+}
+.butt3 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 49px;
+    left: 0;
+    z-index: 120;
+}
+.butt4 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 70px;
+    left: 0;
+    z-index: 120;
+}
+.butt5 {
+    position: absolute;
+    width: 100px;
+    height: 15px;
+    top: 92px;
+    left: 0;
+    z-index: 120;
+}
+.butt6 {
+    position: absolute;
+    width: 115px;
+    height: 15px;
+    top: 0;
+    left: 0;
+    z-index: 120;
+}
+.butt7 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 25px;
+    left: 0;
+    z-index: 120;
+}
+.butt8 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 49px;
+    left: 0;
+    z-index: 120;
+}
+.butt9 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 72px;
+    left: 0;
+    z-index: 120;
+}
+.butt0 {
+    position: absolute;
+    width: 45px;
+    height: 15px;
+    top: 93px;
+    left: 0;
+    z-index: 120;
+}
+.carousel {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    border-radius: 25px;
+    top: 110px;
+    left: 474px;
+    background-color: transparent;
+    z-index: 3;
+}
+.bg-testimony {
+    position: absolute;
+    width: 100%;
+    height: 353px;
+    z-index: 2;
+}
+.year-c {
+    position: relative;
+    left: 0;
+    top: 0;
+    color: rgb(255, 239, 205);
+    font-size: 80px;
+    text-align: center;
+    font-family: MartelSansH;
+    text-shadow: 0px 4px 2px rgba(0,0,0,0.2);
+    z-index: 4;
+}
+.page-c {
+    position: relative;
+    top:0;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: #e2e2e2;
+}
+.bg-comment {
+    position:absolute;
+    width: 944px;
+    height: 800px;
+    top: 354px;
+    left: 15%;
+    background-color: transparent;
+    z-index: 5;
+}
+.comment {
+    position: relative;
+    background-color: transparent;
+    width: 100%;
+    margin-top: 20px;
+    height: 200px;
+}
+.bg-tanggal {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+.tanggal-comment {
+    position: absolute;
+    font-size: 35px;
+    font-family: MartelSansEB;
+    color: white;
+    text-align: center;
+    left: 12px;
+    top: 4px;
+    text-shadow: 0px 4px 2px rgba(0,0,0,0.2);
+    z-index: 3;
+}
+.kotak {
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    top: 5%;
+    left: 5%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 5px rgba(0,0,0,0.2);
+    background-color: white;
+    z-index: 1;
+}
+.nama-comment {
+    position: absolute;
+    font-size: 20px;
+    font-family: MartelSansEB;
+    top: 20px;
+    left: 60px;
+    color: rgb(15, 97, 50);
+    z-index: 2;
+}
+.garis-comment {
+    position: absolute;
+    top: 50px;
+    left: 55px;
+    z-index: 3;
+}
+.isi-comment {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: MartelSansR;
+    top: 75px;
+    left: 60px;
+}
+.btn-custom-rm {
+    position: absolute;
+    color: white;
+    background-color: rgb(15, 97, 50);
+    font-size: 15px;
+    font-family: OleoScriptR;
+    width: 160px;
+    height: 40px;
+    bottom: 20px;
+    right: 60px;
+}
+.btn-custom-rm:hover {
+    position: absolute;
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(15, 97, 50);
+    font-size: 15px;
+    font-family: OleoScriptR;
+    width: 160px;
+    height: 40px;
+    bottom: 20px;
+    right: 60px;
+}
+.btn-custom-rm:active:not(:disabled):not(:disabled) {
+    position: absolute;
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(15, 97, 50);
+    font-size: 15px;
+    font-family: OleoScriptR;
+    width: 160px;
+    height: 40px;
+    bottom: 20px;
+    right: 60px;
+}
+.modal-content {
+    position: absolute;
+    width: 800px;
+    height: 300px;
+    background-color: white;
+    left:-200px;
+    top: 150px;
+}
+.bg-rm {
+    width: 85%;
+    left: 0;
+    top: 0;
+    border-radius: 6px 0 0 0;
+}
+.buttonclose{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: px;
+    height: 10px;
+    z-index: 10;
+}
+.image-closebtn {
+    width: 50px;
+}
+.modal-text-nama {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: MartelSansR;
+    top: 15px;
+    left: 15px;
+    z-index: 10;
+}
+.modal-text-tanggal{
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: MartelSansR;
+    top: 45px;
+    left: 15px;
+    z-index: 10;
+}
+.modal-text-isi {
+    position: absolute;
+    color: black;
+    font-size: 15px;
+    font-family: MartelSansR;
+    top: 80px;
+    left: 15px;
+}
+.btn-group {
+    position: absolute;
+    bottom: 30px;
+    left: 600px;
+    z-index: 15;
+}
+.btn-outline-primary {
+    width: 50px;
+    height: 50px;
+    color: rgb(15, 97, 50);
+    background-color: transparent;
+    border: 2px solid rgb(15, 97, 50);
+    padding-top: 14px;
+    font-size: 15px;
+    font-family: MartelSansDB;
+    text-align: center;
+}
+.btn-outline-primary:hover:not(:disabled):not(:disabled) {
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 239, 205);
+    background-color: rgb(15, 97, 50);
+    border: transparent;
+    font-size: 15px;
+    font-family: MartelSansDB;
+    text-align: center;
+}
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    width: 50px;
+    height: 50px;
+    color: rgb(255, 239, 205);
+    background-color: rgb(15, 97, 50);
+    border: transparent;
+    font-size: 15px;
+    font-family: MartelSansDB;
+    text-align: center;
+}
+.btn-outline-primary::before,
+.btn-outline-primary::after {
+    color: rgb(15, 97, 50);
+    background-color: rgb(255, 239, 205);
+}
+
+
+.prev {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: rgb(237, 169, 198);
+    font-size: 30px;
+    font-weight:bolder;
+    background-color: rgb(255, 239, 205);
+    border-color: transparent;
+    border-radius: 20%;
+    transition: color 0.3s ease;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.2);
+}
+.prev:hover {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: rgb(255, 239, 205);
+    background-color: rgb(237, 169, 198);
+    border: 2px solid rgb(255, 239, 205);
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.next {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: rgb(237, 169, 198);
+    font-size: 30px;
+    font-weight:bolder;
+    background-color: rgb(255, 239, 205);
+    border-color: transparent;
+    border-radius: 20%;
+    transition: color 0.3s ease;
+    box-shadow: 0px 4px 2px rgba(0,0,0,0.2);
+}
+.next:hover {
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    color: rgb(255, 239, 205);
+    background-color: rgb(237, 169, 198);
+    border: 2px solid rgb(255, 239, 205);
+    border-radius: 20%;
+    transition: color 0.3s ease;
+}
+.prev::before,
+.prev::after,
+.next::before,
+.next::after{
+    font-size: 30px;
+    font-weight:bolder
+}
+
+
+.footer {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px -20px 20px rgba(0,0,0,0.1);
+    z-index: 100;
+}
+.prg-1 {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-2 {
+    position: absolute;
+    top: 50px;
+    left: 570px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-3 {
+    position: absolute;
+    top: 50px;
+    left: 750px;
+    color: rgb(15, 97, 50);
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-4 {
+    position: absolute;
+    top: 50px;
+    left: 960px;
+    color: rgb(15, 97, 50);;
+    font-size: x-large;
+    font-family: MartelSansH;
+}
+.prg-5 {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-6 {
+    position: absolute;
+    top: 100px;
+    left: 570px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-7 {
+    position: absolute;
+    top: 100px;
+    left: 750px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.prg-8 {
+    position: absolute;
+    top: 100px;
+    left: 960px;
+    color: rgb(15, 97, 50);
+    font-size: 15px;
+    text-align: justify;
+    font-family: MartelSansR;
+}
+.logo-sm {
+    position: absolute;
+    width: 250px;
+    height: 40px;
+    top: 200px;
+    left: 960px;
+}
+.logoo {
+    position: relative;
+    width: 30px;
+    height: 30px;
+    margin-right: 2px;
+}
+.garis {
+    position: absolute;
+    background-color: rgb(15, 97, 50);
+    width: 100%;
+    height: 5px;
+    top: 255px;
+    left:0;
+}
+.image-copyright {
+    position: absolute;
+    width: 400px;
+    height: 100px;
+    top: 280px;
+    left: 50px;
+}
+.prg-9 {
+    position: absolute;
+    top: 320px;
+    left: 480px;
+    color: rgb(15, 97, 50);
+    font-size: 17px;
+    text-align: justify;
+    font-family: MartelSansDB;
+}
+      

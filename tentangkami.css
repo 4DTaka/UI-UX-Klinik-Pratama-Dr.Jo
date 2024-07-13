@@ -1,0 +1,114 @@
+@font-face {
+    font-family: OleoScriptR;
+    src: url("font/Osr.ttf");
+}
+@font-face {
+    font-family: MartelSansDB;
+    src: url("font/martelsans-demibold.otf");
+}
+
+.logo {
+    width: 360px;
+    height: 80px;
+}
+.navbar {
+    width: 100%;
+    height: 100px;
+    z-index: 100;
+    font-family: MartelSansDB;
+}
+.nav-link {
+    color: rgb(255, 255, 255);
+}
+.nav-link.active {
+    color: rgb(255, 239, 205);
+}
+.nav-link:hover {
+    color: rgb(255, 239, 205);
+}
+#parent {
+    position :relative;
+    width:100%;
+    height: 640px;
+}
+.background {
+    background: rgb(255, 239, 205);
+    width: 100%;
+    height: 648px;
+    position: absolute;
+    z-index: 1;
+}
+.bg {
+    width: 100%;
+    height: 720px;
+    top: -100px;
+    position:absolute;
+    z-index: 2;
+}
+.hias3 {
+    width: 600px;
+    height: 200px;
+    top: 0px;
+    left: 0px;
+    position:absolute;
+    z-index: 3;
+}
+.hias4 {
+    width: 325px;
+    height: 360px;
+    top: 244px;
+    left: 40px;
+    position:absolute;
+    z-index: 5;
+}
+.text5{
+    width: 360px;
+    height: 130px;
+    top: 95px;
+    left: 20px;
+    position:absolute;
+    z-index: 3;
+}
+.text6 {
+    width: 340px;
+    height: 150px;
+    top: 250px;
+    left: 33px;
+    position:absolute;
+    z-index: 6;
+}
+.tentang {
+    width: 950px;
+    height: 425px;
+    top: 65px;
+    right: 0;
+    position:absolute;
+    z-index: 7;
+}
+.facebook {
+    width: 40px;
+    height: 40px;
+    top: 535px;
+    left:50px;
+    position:absolute;
+    cursor: pointer;
+    z-index: 8;
+}
+.instagram {
+    width: 40px;
+    height: 40px;
+    top: 535px;
+    left:100px;
+    position:absolute;
+    cursor: pointer;
+    z-index: 8;
+}
+.location {
+    width: 40px;
+    height: 40px;
+    top: 535px;
+    left:150px;
+    position:absolute;
+    cursor: pointer;
+    z-index: 8;
+}
